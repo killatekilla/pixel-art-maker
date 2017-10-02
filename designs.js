@@ -31,8 +31,3 @@ sizePicker.addEventListener("submit", function(event){
   const inputWidth = document.getElementById("input_width").value;
   makeGrid(inputHeight, inputWidth);
 });
-
-//Fill td with customColor
-document.getElementById("pixel_canvas").addEventListener("click", (event) => {
-  event.target.style.background = colorPicker.value;
-}, false);
